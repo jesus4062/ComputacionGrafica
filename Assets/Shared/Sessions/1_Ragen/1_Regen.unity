@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.051
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -205,13 +205,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115137923}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.071026914, y: -0, z: -0, w: 0.99747443}
-  m_LocalPosition: {x: -0.06, y: 2.3, z: -5.11}
+  m_LocalRotation: {x: 0.18174794, y: -0, z: -0, w: 0.98334515}
+  m_LocalPosition: {x: -0.06, y: 3.17, z: -4.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 8.146, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 20.943, y: 0, z: 0}
 --- !u!114 &115137927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10044,6 +10044,37 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &578162933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 578162934}
+  m_Layer: 0
+  m_Name: Timeline_Heal_OG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &578162934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578162933}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.78824, y: -0, z: 3.30581}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &939211524
 GameObject:
   m_ObjectHideFlags: 0
@@ -24900,7 +24931,7 @@ Transform:
   m_GameObject: {fileID: 1268219608}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.04, y: 2.95, z: 0}
+  m_LocalPosition: {x: -0.02, y: 2.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26027,16 +26058,7 @@ ParticleSystem:
           time: 0.7000493
           value: 0.5348404
           inSlope: 0.3426174
-          outSlope: 1.5507867
-          tangentMode: 69
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.33333334
-        - serializedVersion: 3
-          time: 1
-          value: 1
-          inSlope: 1.5507867
-          outSlope: 1
+          outSlope: 0.012072917
           tangentMode: 69
           weightedMode: 0
           inWeight: 0.33333334
@@ -54469,7 +54491,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.3018868, g: 0.21502315, b: 0.21502315, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -74174,3 +74196,4 @@ SceneRoots:
   - {fileID: 1548190666}
   - {fileID: 1586257497}
   - {fileID: 1557547168}
+  - {fileID: 578162934}
