@@ -8,6 +8,8 @@
 
 ##### 2.
 
+<img width="289" height="294" alt="Captura de pantalla 2026-08-24 021538" src="https://github.com/user-attachments/assets/0effdef8-9eec-4cfd-88b1-995677eb8aee" />
+
 
 analisis :
 
