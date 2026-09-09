@@ -8,7 +8,9 @@
 
 ##### 2.
 
+<img width="289" height="294" alt="Captura de pantalla 2026-08-24 021538" src="https://github.com/user-attachments/assets/0effdef8-9eec-4cfd-88b1-995677eb8aee" />
+
 
 analisis :
 
-Empezamos cuadrando las cuatro partículas y los dos vórtices emparejados con el tiempo de desfase para rodear bien el objeto. El verdadero dolor de cabeza fue el giro con el estiramiento leve al subir, pero se solucionó separando las curvas para que frenara en seco sin romperse. Al final, el aura quedó bien pegada al movimiento local y le ganamos al Timeline cambiando el loop por ráfagas infinitas, logrando que todo se desvanezca suavecito sin usar código.
+Empezamos cuadrando las cuatro partículas y los dos vortex emparejados con el tiempo de desfase para rodear bien el objeto. El verdadero dolor de cabeza fue el giro con el estiramiento leve al subir, pero se solucionó separando las curvas para que frenara en seco sin romperse. Al final, el aura quedó bien pegada al movimiento local y le ganamos al Timeline cambiando el loop por ráfagas infinitas, logrando que todo se desvanezca suavecito sin usar código.
