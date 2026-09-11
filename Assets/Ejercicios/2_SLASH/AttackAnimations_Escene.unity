@@ -392,7 +392,7 @@ ParticleSystem:
   startDelay:
     serializedVersion: 2
     minMaxState: 0
-    scalar: 0.25
+    scalar: 0.23
     minScalar: 0
     maxCurve:
       serializedVersion: 2
@@ -559,7 +559,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.990566, g: 0, b: 0, a: 1}
+      maxColor: {r: 0.99215686, g: 0, b: 0.46471965, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -10391,31 +10391,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7455052563442308447, guid: 036ffb35b08df8d5c963f77a784a0323, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.2573676
+      value: 0.26706588
       objectReference: {fileID: 0}
     - target: {fileID: 7455052563442308447, guid: 036ffb35b08df8d5c963f77a784a0323, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0090046
+      value: 1.511565
       objectReference: {fileID: 0}
     - target: {fileID: 7455052563442308447, guid: 036ffb35b08df8d5c963f77a784a0323, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.8411294
+      value: -0.080604196
       objectReference: {fileID: 0}
     - target: {fileID: 7455052563442308447, guid: 036ffb35b08df8d5c963f77a784a0323, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.81926775
+      value: 0.5780341
       objectReference: {fileID: 0}
     - target: {fileID: 7455052563442308447, guid: 036ffb35b08df8d5c963f77a784a0323, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.1398209
+      value: 0.29286653
       objectReference: {fileID: 0}
     - target: {fileID: 7455052563442308447, guid: 036ffb35b08df8d5c963f77a784a0323, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.517716
+      value: 0.035902977
       objectReference: {fileID: 0}
     - target: {fileID: 7455052563442308447, guid: 036ffb35b08df8d5c963f77a784a0323, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.20302881
+      value: -0.7608002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
