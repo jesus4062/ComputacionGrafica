@@ -116,6 +116,9 @@
         },
         {
             "m_Id": "49177a9ec78540e79203fe759b44d56d"
+        },
+        {
+            "m_Id": "85fb91246a1a46a2b7f41bc25a49760f"
         }
     ],
     "m_GroupDatas": [
@@ -2241,6 +2244,44 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SceneColorNode",
+    "m_ObjectId": "85fb91246a1a46a2b7f41bc25a49760f",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Scene Color",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 714.0531005859375,
+            "y": -839.5532836914063,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "93136500a1ca4d7fa9cea4284fb284a4"
+        },
+        {
+            "m_Id": "8d18ec5cdedf4b9da54726c83c8567f0"
+        }
+    ],
+    "synonyms": [
+        "screen buffer"
+    ],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "874a7b2dbf0b42aa9b1fcbb500d28920",
     "m_Id": 1,
@@ -2337,6 +2378,29 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "8d18ec5cdedf4b9da54726c83c8567f0",
+    "m_Id": 1,
+    "m_DisplayName": "Out",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 2,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "8dd7abc0c0dc4eae81c2c072bc83683d",
     "m_Id": 1,
@@ -2410,6 +2474,32 @@
     "m_Property": {
         "m_Id": "cf8e41d452da41f8ba61fd582f402ad7"
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.ScreenPositionMaterialSlot",
+    "m_ObjectId": "93136500a1ca4d7fa9cea4284fb284a4",
+    "m_Id": 0,
+    "m_DisplayName": "UV",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "UV",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_Labels": [],
+    "m_ScreenSpaceType": 0
 }
 
 {
@@ -2530,7 +2620,7 @@
     "m_Title": "Soft Particles",
     "m_Position": {
         "x": 483.9999694824219,
-        "y": 1552.9998779296875
+        "y": 1553.0
     }
 }
 
