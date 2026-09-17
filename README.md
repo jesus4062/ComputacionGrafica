@@ -1,5 +1,5 @@
 # Proyecto Computacion Grafica "Guerreos Z"
-
+### Heal
 #### Link del video:  https://drive.google.com/drive/folders/1hLsKdWV8whYLtpA5oqSoj3vEIexnFAZ_?usp=sharing
 
 
@@ -14,3 +14,9 @@
 analisis :
 
 Empezamos cuadrando las cuatro partículas y los dos vortex emparejados con el tiempo de desfase para rodear bien el objeto. El verdadero dolor de cabeza fue el giro con el estiramiento leve al subir, pero se solucionó separando las curvas para que frenara en seco sin romperse. Al final, el aura quedó bien pegada al movimiento local y le ganamos al Timeline cambiando el loop por ráfagas infinitas, logrando que todo se desvanezca suavecito sin usar código.
+
+
+### Slash
+
+https://github.com/user-attachments/assets/f6897236-9f17-44c9-929f-29b97a3d37b7
+
