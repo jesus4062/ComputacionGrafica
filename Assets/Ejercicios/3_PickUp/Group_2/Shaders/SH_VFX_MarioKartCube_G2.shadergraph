@@ -2305,8 +2305,8 @@
     "m_ObjectId": "12b37279e7b0430ebe4a216d1fa0de78",
     "m_Title": "Procedural Circle",
     "m_Position": {
-        "x": -6448.00048828125,
-        "y": -454.99951171875
+        "x": -6448.0,
+        "y": -455.0
     }
 }
 
