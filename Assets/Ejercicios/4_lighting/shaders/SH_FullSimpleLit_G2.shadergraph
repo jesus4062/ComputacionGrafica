@@ -666,7 +666,7 @@
     },
     "m_PreviewData": {
         "serializedMesh": {
-            "m_SerializedMesh": "{\"mesh\":{\"instanceID\":0}}",
+            "m_SerializedMesh": "{\"mesh\":{\"fileID\":-358703852059624310,\"guid\":\"9f33bfbea78f24f41b3cf59603efc897\",\"type\":3}}",
             "m_Guid": ""
         },
         "preventRotation": false
@@ -3014,7 +3014,7 @@
     "m_Title": "H",
     "m_Position": {
         "x": -2290.0,
-        "y": 918.9999389648438
+        "y": 919.0
     }
 }
 
