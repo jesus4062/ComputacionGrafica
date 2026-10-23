@@ -54,13 +54,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _DisplacementScale: 0.2
+    - _DisplacementStrnght: 0.03
     - _NormalStrenght: 0.05
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _refractionStragenth: 0.1
     m_Colors:
     - _DeepColor: {r: 0.023529412, g: 0, b: 0.5176471, a: 1}
     - _DensityParams: {r: 0, g: 0.46, b: 0, a: 0}
+    - _DisplacementAnimation: {r: 1, g: -1, b: 0, a: 0}
     - _LighScatterParams: {r: 0, g: 3.68, b: 0, a: 0}
+    - _Normal1Animation: {r: 0.125, g: 0.125, b: 0.2, a: 0}
+    - _Normal2Animation: {r: 0.125, g: 0.165, b: 0.33, a: 0}
+    - _Normal3Animation: {r: 0.025, g: -0.125, b: 0.6, a: 0}
     - _ShallowColor: {r: 1, g: 0.9292453, b: 0.9292453, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
