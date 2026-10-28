@@ -2023,8 +2023,8 @@
     "m_ObjectId": "2ac3237b30174c0d8a553dc4c54e41f2",
     "m_Title": "ObjectDepth",
     "m_Position": {
-        "x": -4261.99951171875,
-        "y": 3039.999755859375
+        "x": -4262.0,
+        "y": 3040.0
     }
 }
 
@@ -4839,8 +4839,8 @@
     "m_ObjectId": "a2155d638d3d40b69ed3450daa36c53a",
     "m_Title": "HalfTone Circles",
     "m_Position": {
-        "x": -1988.999755859375,
-        "y": 2779.000244140625
+        "x": -1989.0,
+        "y": 2779.0
     }
 }
 
@@ -4923,8 +4923,8 @@
     "m_ObjectId": "a5afe81e91184eebbcd6ad8a5a046c18",
     "m_Title": "Lambert Driven Cricle Size",
     "m_Position": {
-        "x": -1650.999755859375,
-        "y": 1712.999755859375
+        "x": -1651.0,
+        "y": 1713.0
     }
 }
 
