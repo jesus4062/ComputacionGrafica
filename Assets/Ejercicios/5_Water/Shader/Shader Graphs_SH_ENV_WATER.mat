@@ -54,9 +54,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _CrestFoamCutoff: 0.5
+    - _CrestFoamEnd: 0.8
+    - _CrestFoamStart: 0.5
     - _DisplacementScale: 0.2
     - _DisplacementStrength: 0.03
     - _DisplacementStrnght: 0.03
+    - _FoamCutoff: 0.5
+    - _FoamDistance: 0.5
+    - _FoamEnd: 0.4
+    - _FoamNoiseScale: 8
+    - _FoamNoiseStrength: 0.15
+    - _FoamSharpness: 0.5
+    - _FoamStart: 0.05
     - _NormalStrenght: 0.2
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -66,6 +76,7 @@ Material:
     - _DeepColor: {r: 0.023529412, g: 0, b: 0.5176471, a: 1}
     - _DensityParams: {r: 0, g: 0.46, b: 0, a: 0}
     - _DisplacementAnimation: {r: 1, g: -1, b: 0, a: 0}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
     - _LighScatterParams: {r: 0, g: 2.96, b: 0, a: 0}
     - _Normal1Animation: {r: 0.0625, g: -0.125, b: 0.2, a: 0}
     - _Normal2Animation: {r: -0.0625, g: 0.0825, b: 0.33, a: 0}
