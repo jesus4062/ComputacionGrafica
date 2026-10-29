@@ -73,15 +73,15 @@ Material:
     - _RefractionStrength: 0.1
     - _refractionStragenth: 0.1
     m_Colors:
-    - _DeepColor: {r: 0.023529412, g: 0, b: 0.5176471, a: 1}
-    - _DensityParams: {r: 0, g: 0.46, b: 0, a: 0}
+    - _DeepColor: {r: 0.09011213, g: 0.73012716, b: 0.764151, a: 1}
+    - _DensityParams: {r: -15.9, g: 0.46, b: 0, a: 0}
     - _DisplacementAnimation: {r: 1, g: -1, b: 0, a: 0}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
-    - _LighScatterParams: {r: 0, g: 2.96, b: 0, a: 0}
+    - _LighScatterParams: {r: -0.28, g: 2.96, b: 0, a: 0}
     - _Normal1Animation: {r: 0.0625, g: -0.125, b: 0.2, a: 0}
     - _Normal2Animation: {r: -0.0625, g: 0.0825, b: 0.33, a: 0}
     - _Normal3Animation: {r: 0.025, g: -0.125, b: 0.6, a: 0}
-    - _ShallowColor: {r: 1, g: 0.9292453, b: 0.9292453, a: 1}
+    - _ShallowColor: {r: 0.38470095, g: 0.8604859, b: 0.8962264, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &8094416754629385733
