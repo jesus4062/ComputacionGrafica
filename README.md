@@ -20,3 +20,19 @@ Empezamos cuadrando las cuatro partículas y los dos vortex emparejados con el t
 
 https://github.com/user-attachments/assets/f6897236-9f17-44c9-929f-29b97a3d37b7
 
+
+### Actividad #3: Shaders de superficie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
