@@ -1,10 +1,10 @@
 #ifndef BLUR_CA_G2
 #define BLUR_CA_G2
 
-//#include "Packages/com.unity.render-pipelines.universal/shaderLibrary/Core.hlsl"
+#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
 #ifndef SHADERGRAPH_PREVIEW
-Texture2D_X(_BlitTexture);
+TEXTURE2D_X(_BlitTexture);
 #endif
 
 #define ITERATIONS 64
@@ -24,7 +24,6 @@ float4 SampleTextureChannel(float2 pixelCoords, float2 direction, float pixelOff
 void RadialBlurChromaticAberration_float(float2 pixelCoords, float2 direction, float3 perChannelOffsets, out float4 result)
 {
     result = float4(0, 1, 1, 0);
-    
     #ifndef SHADERGRAPH_PREVIEW
     result = 0;
     
