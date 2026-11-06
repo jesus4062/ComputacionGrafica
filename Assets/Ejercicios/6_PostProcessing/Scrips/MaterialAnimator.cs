@@ -1,25 +1,25 @@
 using System;
-using UnityEditor;
 using UnityEngine;
 
 [Serializable]
 struct FloatCurve
 {
     public string materialProperty;
-    private AnimationCurve curve;
+    public AnimationCurve curve;
 }
 
 [RequireComponent(typeof(ParticleSystem))]
 [ExecuteInEditMode]
-
 public class MaterialAnimator : MonoBehaviour
 {
-    [SerializeField] private Material targetmaterial; 
+    [SerializeField] private Material targetMaterial; 
     
     private  ParticleSystem particles;
+    
     [SerializeField] private FloatCurve[] curves;
 
     [SerializeField] private float particleTime;
+    
     private void Awake()
     {
         particles = GetComponent<ParticleSystem>();
@@ -28,14 +28,14 @@ public class MaterialAnimator : MonoBehaviour
     void Evaluate()
     {
         particleTime = particles.time;
-        foreach (FloatCurve CURVE in curves)
+        foreach (FloatCurve curve in curves)
         {
-            targetmaterial.SetFloat(curve.materialProperty,curve.curve.Evualuate(particleTime));
+            targetMaterial?.SetFloat(curve.materialProperty, curve.curve.Evaluate(particles.time));
         }
     }
 
     private void Update()
     {
-        
+        Evaluate();
     }
 }
