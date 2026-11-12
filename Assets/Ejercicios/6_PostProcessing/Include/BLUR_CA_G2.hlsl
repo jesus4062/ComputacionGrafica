@@ -30,6 +30,7 @@ void RadialBlurChromaticAberration_float(float2 pixelCoords, float2 direction, f
     
     for (int i = 0; i < ITERATIONS; i++)
     {
+        float t = (float)i / (ITERATIONS - 1);
     
         float pixelR = SampleTextureChannel(pixelCoords, direction, perChannelOffsets.x).r;
         float pixelG = SampleTextureChannel(pixelCoords, direction, perChannelOffsets.y).g; 
@@ -39,7 +40,7 @@ void RadialBlurChromaticAberration_float(float2 pixelCoords, float2 direction, f
        
     }
     
-    result /= ITERATIONS;
+    result /= (ITERATIONS * 2);
     #endif
 }
 

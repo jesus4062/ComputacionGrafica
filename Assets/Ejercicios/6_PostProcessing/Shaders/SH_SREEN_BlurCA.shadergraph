@@ -249,8 +249,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 0.0
+            "x": 0.0000247955322265625,
+            "y": -14.999995231628418
         },
         "m_Blocks": []
     },
@@ -403,10 +403,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -581.0000610351563,
-            "y": 167.00001525878907,
+            "x": -579.0,
+            "y": 167.0000457763672,
             "width": 329.0,
-            "height": 278.00006103515627
+            "height": 326.0
         }
     },
     "m_Slots": [
@@ -417,7 +417,7 @@
             "m_Id": "b9e42cc2281a4fdcaf9853ce0feb8c74"
         },
         {
-            "m_Id": "b65f7366aed74450bfffdcc89caca9b9"
+            "m_Id": "ff0a0a51b9064066ba3cbe0d56e8b303"
         },
         {
             "m_Id": "272dbb23d8b3475989e3622591d082fe"
@@ -1232,22 +1232,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "b65f7366aed74450bfffdcc89caca9b9",
-    "m_Id": 3,
-    "m_DisplayName": "PiixelOffset",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "PiixelOffset",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": [],
-    "m_LiteralMode": false
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "b9e42cc2281a4fdcaf9853ce0feb8c74",
     "m_Id": 2,
@@ -1861,5 +1845,28 @@
         "e32": 0.0,
         "e33": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "ff0a0a51b9064066ba3cbe0d56e8b303",
+    "m_Id": 3,
+    "m_DisplayName": "PiixelOffset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "PiixelOffset",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
 }
 
