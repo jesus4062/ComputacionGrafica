@@ -75,9 +75,9 @@ https://github.com/user-attachments/assets/0cb79486-a33f-4a68-8c68-ec3e4fd49916
 
 
 
+descarga el .zip del demo
 
-
-
+https://github.com/jesus4062/ComputacionGrafica/releases/download/v1.0/Demo_GohanBeastVFX-Windows.zip
 
 
 
