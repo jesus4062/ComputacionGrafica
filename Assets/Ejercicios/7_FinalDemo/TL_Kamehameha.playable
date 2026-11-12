@@ -291,7 +291,7 @@ MonoBehaviour:
     m_DisplayName: Active
   m_Markers:
     m_Objects: []
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &-1616981810597916623
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -748,7 +748,7 @@ MonoBehaviour:
     m_DisplayName: Active
   m_Markers:
     m_Objects: []
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &1336037420717988137
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -853,7 +853,7 @@ MonoBehaviour:
     m_DisplayName: Active
   m_Markers:
     m_Objects: []
-  m_PostPlaybackState: 3
+  m_PostPlaybackState: 1
 --- !u!114 &2438060687527825568
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1038,7 +1038,7 @@ MonoBehaviour:
   updateITimeControl: 1
   searchHierarchy: 0
   active: 1
-  postPlayback: 2
+  postPlayback: 1
   directorOnClipEnd: 0
 --- !u!114 &6347070902530557931
 MonoBehaviour:
@@ -1062,7 +1062,7 @@ MonoBehaviour:
   updateITimeControl: 1
   searchHierarchy: 0
   active: 1
-  postPlayback: 2
+  postPlayback: 1
   directorOnClipEnd: 0
 --- !u!114 &8774573114084188565
 MonoBehaviour:
