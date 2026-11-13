@@ -81,7 +81,9 @@ https://github.com/jesus4062/ComputacionGrafica/releases/download/v1.0/Demo_Goha
 
 
 
+##### Juega el Demo en web
 
+https://thewarrior710.itch.io/guerreros-z-demo-de-efectos
 
 
 
